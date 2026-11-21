@@ -1,0 +1,15 @@
+{
+  "name": "pi-approval-loop",
+  "version": "0.1.0",
+  "description": "Pi extension that repeats a short approval message after every completed model response.",
+  "keywords": ["pi-package", "pi", "extension"],
+  "license": "MIT",
+  "type": "module",
+  "files": ["extensions", "README.md", "LICENSE"],
+  "peerDependencies": {
+    "@earendil-works/pi-coding-agent": "*"
+  },
+  "pi": {
+    "extensions": ["./extensions/index.ts"]
+  }
+}
